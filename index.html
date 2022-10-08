@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css" type="text/css" />
+    <title>Calculator</title>
+</head>
+
+<body>
+    <h1>Hey, There</h1>
+        <h1>Percentage Calculator</h1>
+
+        <div>
+
+            <h2> What is <input type="number" id="per"  class="input"/>% of
+                <input type="number" id="num" class="input"/>?
+            </h2>
+            <button onclick="calVal()" class="btn button" >Calculate</button><br>
+
+            <input type="text" id="value1" readonly />
+            <p id="note1" style="padding:10px;font-size: 10px;"></p>
+        </div>
+
+        <div>
+            <h2><input type="number" id="num1" />
+                is what Percent of
+                <input type="number" id="num2" />?
+            </h2>
+
+            <button onclick="calPay()" class="btn">Calculate</button></br>
+
+            <input type="text" id="value2" readonly />
+            <p id="note2" style="padding:10px;font-size: 10px;"></p>
+        </div>
+
+        <script type="text/javascript" src="script.js"></script>
+</body>
+
+</html>
